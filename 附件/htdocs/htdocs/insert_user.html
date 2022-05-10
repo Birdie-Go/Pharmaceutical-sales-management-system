@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>注册用户</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="format-detection" content="telephone=no">
+  <meta HTTP-EQUIV="pragma" CONTENT="no-cache"> 
+  <meta HTTP-EQUIV="Cache-Control" CONTENT="no-store, must-revalidate"> 
+  <meta HTTP-EQUIV="expires" CONTENT="0">
+  <style>
+    body{
+      font: 16px arial,'Microsoft Yahei','Hiragino Sans GB',sans-serif;
+      background-image: url(/image/back.png);
+      background-size: cover;
+    }
+    .content{
+      width: 30%;
+      margin: 0 auto;
+     
+    }
+    .content >div{
+      margin-top: 220px;
+      padding: 20px;
+      background: #dcf7d9;  
+      border-radius: 12px;
+    }
+    .content dl{
+      color: #2d6a88;
+      line-height: 30px;
+    } 
+    .content div div {
+      padding-bottom: 20px;
+      text-align:center;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 align="center" style="margin:0;color:#1c6814;font-size:45px;">医药销售管理系统</h1>
+  <div class="content">
+      <div>
+           <h1 align="center" style="margin:0;color:#3a87ad;font-size: 26px;">用户信息</h1>
+           <font style='color:#ffffff;background-color:transparent;font-size:30px;position:absolute;left:650px;top:110px'>注册用户</font>
+        <dl>
+          <form action="insert_user.php" method="post">
+            <p align="center">用户名: <input type="text" name="fname"><br></p>
+            <p align="center">密码: <input type="text" name="password"><br></p>
+            <p align="center">员工类别: <input type="text" name="tp"><br></p>
+            <p align="center">员工姓名: <input type="text" name="realname"><br></p>
+            <p align="center">联系电话: <input type="text" name="phone"><br></p>
+            <p align="center"><input type="submit" value="确定" style="height: 25px;width: 200px"><br></p>
+        </from>
+      </div>
+    </div> 
+</body>
+</html>
+
